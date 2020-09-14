@@ -2,7 +2,7 @@
 
 |                 | **Names/Ids**  |
 |----------------:|:---------------|
-| *Student Name:  |                |
+| *Student Name:* |                |
 | *Team ID:*      |                |
 | *Email:*        |                |                      
 
