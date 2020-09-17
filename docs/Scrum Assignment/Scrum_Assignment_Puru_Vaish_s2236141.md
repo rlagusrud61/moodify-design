@@ -11,11 +11,11 @@
 
 ## *Q1:* What role do you prefer for yourself as a team player and why?
 
-When I did the Belbin role test, I got the role of the complete finisher and speacialist. I like learning and deep-diving into any language, api, sdk that I have to work with to know about any thing that I can use to make our project more efficient. Since I feel like this role contributes to the overall efficiency of the team and keeps the project running.
+When I did the Belbin role test, I got the role of the complete finisher and specialist. I like learning and deep-diving into any language, api, sdk that I have to work with to know about any thing that I can use to make our project more efficient. Since I feel like this role contributes to the overall efficiency of the team and keeps the project running, I prefer having this role in a project.
 
 ## *Q2:* How much productive you are? Can you give an estimation of your productivity? How do you manage in case your estimation goes wrong?
 
-I am a semi-productive person, as the belbin role predicts of speacialist. For instance I can have a beutiful functional code done in an hour which utilises the best methods and class hierarchy, while my peer could do the same in half. Alternatively I also focus a lot more on learning something new about the platform that is being worked on, which perhaps a lot of people skip and learn as needed, when neeed. For these reasons I find myself less productive than the max, but I would not say I am uselessly unproductive.
+I am a semi-productive person, as the belbin role predicts of specialist. For instance I can have a beautiful functional code done in an hour which utilises the best methods and class hierarchy, while my peer could do the same in half. Alternatively I also focus a lot more on learning something new about the platform that is being worked on, which perhaps a lot of people skip and learn as needed, when neeed. For these reasons I find myself less productive than the max, but I would not say I am uselessly unproductive.
 
 ## *Q3:* How do you prioritize your task? Do you have any specific criteria which you follow every time?
 
@@ -36,3 +36,6 @@ The requirements of the project are are decided by what I exepect a product in a
 ## *Q7:* Do you think the evaluation is important for productivity? How do you assess yourself and your Colleagues? 
 
 Evaluation is important but I put more stress on the type of evaluation. Evaluation can not be single dimensional, and should apply proper weaight to each factor. Everyone has their strenghts so while assessing I have to use a more tailored approach on how well do they do the what they speacialise in, and how well can they adapt in an enviornment in which they do not. Evaluation as a collective is also important which needs to be done using a more balanced approach than a tailored one, since it is expected a team should normalize any shortcomings and also strengths and a give well-rounded performance. As for link of productivity with evaluation, I would envoke the carrot and and the stick analogy, and say yes, but at the same time I would say people should not be productive for the sole reason of better evaluation.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExMDQ0OTI1NTBdfQ==
+-->
