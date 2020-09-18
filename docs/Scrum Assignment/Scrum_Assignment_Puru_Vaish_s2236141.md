@@ -4,6 +4,7 @@
 |----------------:|:---------------              |
 | *Student Name:* |Puru Vaish                    |
 | *Team ID:*      |8                             |
+| *Student number*|s2236141                      |
 | *Email:*        |p.vaish@student.utwente.nl    |                      
 
 
