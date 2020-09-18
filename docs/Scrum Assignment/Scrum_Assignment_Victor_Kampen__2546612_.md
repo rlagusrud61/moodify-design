@@ -8,7 +8,8 @@
 
 
 **Note: This assignment is to judge your scrum skills and how well you contribute to a team. You have to complete this form every team member individually.**
-**Note from Victor: I am required to give my m-number, but I think that it is a typo and that you wanted my student number.** 
+
+##**Note from Victor: I am required to give my m-number, but I think that it is a typo and that you wanted my student number.** 
 
 ## *Q1:* What role do you prefer for yourself as a team player and why?
 I am often told that my vision on topics is unique and unconventional. With that in mind, I think that the role of "planter" would suit the best. I heard that
