@@ -2,7 +2,7 @@
  
 |                 | **Names/Ids**  |
 |----------------:|:---------------|
-| *Team members:* | <ul><li>s2112019</li><li>s2172968</li><li>s2236141</li><li>s2315653</li><li>s2546612</li><li>s1992988</li></ul>               |
+| *Team members:* | <ul><li>Hyeon Kyeong Kim/s2112019</li><li>Joep Vorage/s2172968</li><li>Puru Vaish/s2236141</li><li>Priya Naguine/s2315653</li><li>Victor Kampen/s2546612</li><li>Marieke Romejin/s1992988</li></ul>               |
 | *Team ID:*      |    Team 8            |
 
 
