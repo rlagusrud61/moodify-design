@@ -5,7 +5,7 @@
 |                  | **Names/Ids**  |
 |-----------------:|:---------------|
 | *Team members:*  |  Victor Kampen, Hyeon Kyeong Kim, Priya Naguine, Marieke Romeijn, Puru Vaish, Joep Vorage              |
-| *Team ID:*       | Team 08               |
+| *Team ID:*       | Pi3             |
 | *Scrum  Master:* | Joep Vorage               |
 | *Scrum  Mentor:* | Rick Fontein               |
  
