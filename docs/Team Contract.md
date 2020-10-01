@@ -71,10 +71,10 @@ Weaknesses:
 
  I undersigned, hereby declare that I have read, agreed, and accepted all the rules and commitments mentioned in this document during the project, Course: Computer Systems, Module 5 (2020-21).
 
-Priya Naguine
-Victor Kampen
-Hyeon Kyeong Kim
-Puru Vaish
-Marieke Romeijn
-Joep Vorage
+* Priya Naguine
+* Victor Kampen
+* Hyeon Kyeong Kim
+* Puru Vaish
+* Marieke Romeijn
+* Joep Vorage
 		
