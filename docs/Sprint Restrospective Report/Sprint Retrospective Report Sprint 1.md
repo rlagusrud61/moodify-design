@@ -1,14 +1,13 @@
 # Requirement Analysis Document Template
+
+Note: Elaborate every answer in your own words, based on your team performance and experience. You are required to submit a md file (1000-1500 words) for this assignment.
+
  
 |                 | **Names/Ids**  |
 |----------------:|:---------------|
 | *Team members:* | <ul><li>Hyeon Kyeong Kim/s2112019</li><li>Joep Vorage/s2172968</li><li>Puru Vaish/s2236141</li><li>Priya Naguine/s2315653</li><li>Victor Kampen/s2546612</li><li>Marieke Romejin/s1992988</li></ul>               |
 | *Team ID:*      |    Team 08 / Pi3            |
 
-
-**Instructions:**
-* Make a document by including all the suggested sections.
-* The document should be of a maximum of 4 pages.
 
 ## Introduction
 We all know about smart lights. We all know about light bulbs that can change colour. We all know about wake-up lights and we all know about timers that control the time when a lamp turns on and off, but nobody knows about a light that combines all of these functionalities. So, we present to you our project! Buying all these devices separately is a thing of the past, for we present to you a Raspberry Pi powered light called the Moodify. The Moodify is a must-have if you want to control the atmosphere according to the mood you’re in or the mood you’d want to be in. Moodify is designed with the atmosphere of your home in mind, thereby improving your mood. We designed Moodify with not one, not two, but many kinds of usage in mind.
