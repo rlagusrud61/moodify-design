@@ -1,0 +1,23 @@
+# Project Standup Meeting Report
+
+| | **Names/Ids** |
+|-------------------------:|:---------------|
+| *Project Name:* | Moodify |
+| *Meeting Date:* | 26-10-2020 |
+| *Present Team members:* | Victor Kampen, Hyeon Kyeong Kim, Priya Naguine, Marieke Romeijn, Puru Vaish, Joep Vorage |
+| *Team ID:* | Team 08 |
+| *Scrum Master:* | Hyeon Kyeong Kim |
+| *Scrum Mentor:* | Chakshu Gupta |
+
+## Meeting questions
+
+**Example questions: What did you finish yesterday?, What will you do today?, Any obstacles? Answers: Yesterday: ..., Today: ..., Obstacle (if any)?**
+
+| **Team Members' Name (Student ID)** | **Meeting Questions** | **Response** |
+|-------------------------------------|-----------------------|---------------|
+| Victor Kampen (s2546612) | 1. What did you do before the meeting? <br> 2. What will you do today? <br> 3. Did you find any obstacles? | 1. Haven't really had the time to work on something because of personal circumstances. <br> 2. After this meeting, will discuss with the team on which tasks to take for the week and for the next sprint. <br> 3. None. Only some minor personal circumstances |
+| Hyeon Kyeong Kim (s2112019) | 1. What did you do before the meeting? <br> 2. What will you do today? <br> 3. Did you find any obstacles?| 1. Haven't made significant progress on the HTML part. Worked on Sprint retrospective with the group. <br> 2. After this meeting, will work on the issues in Gitlab regarding the web interface. <br> 3. No issues. |
+| Priya Naguine (s2315653) | 1. What did you do before the meeting? <br> 2. What will you do today? <br> 3. Did you find any obstacles?| 1. Since last scrum meeting, worked on the sprint retrospective reports for sprint 3 with the group, worked with Marieke on the LED with the LDR. Did not do much because of OS and Maths exam. <br> 2. This afternoon, meeting with the group so then we will decide what everyones tasks are. <br> 3. No issues. |
+| Marieke Romeijn (s1992988) | 1. What did you do before the meeting? <br> 2. What will you do today? <br> 3. Did you find any obstacles?| 1. Since last scrum meeting, worked on the sprint retrospective reports for sprint 3 with the group, worked with Priya on the LED with the LDR and made a sketch of what the final product would look like.  <br> 2. This afternoon, we are meeting with the group so then we will decide what everyones tasks are. <br> 3. No issues. |
+| Puru Vaish (s2236141) | 1. What did you do before the meeting? <br> 2. What will you do today? <br> 3. Did you find any obstacles?| 1. Created the BLE server endpoint for the Music Mode, controlling the Brightness, and added the logic for controlling the brightness. Also added the logic to control the colour after having configured the RGB-LED Strip both in hardware and programming replacing the single LED we had. Options for sending the colour, brightness, toggling the music mode were also added to the front end, almost completing the back-end part of the project.  <br> 2. Some things are still not tested completely, only prelim, so those will be tested, such as Changing the colour and the brightness while music mode is on, which shouldn't be possible, etc. <br> 3. The issue of the Gitlab pages has not yet been resolved. |
+| Joep Vorage (s2172968) | 1. What did you do before the meeting? <br> 2. What will you do today? <br> 3. Did you find any obstacles?| 1. Worked on making the frequency + intensity detection code work with a usb microphone on the raspberry pi. <br> 2. Implement it into the stub implementation and make it work with the rest of the project's code. <br> 3. No issues. |
