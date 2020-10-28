@@ -9,9 +9,9 @@
 **Project Title: Moodify™**
 
 ## 1. Introduction and Background
-For our project, we were inspired by how people’s mental health has been affected during the COVID-19 pandemic. Since everyone is locked in their rooms because of the pandemic, people might not get sufficient light and research shows that light can significantly improve someone’s mood and energy levels.
+- For our project, we were inspired by how people’s mental health has been affected during the COVID-19 pandemic. Since everyone is locked in their rooms because of the pandemic, people might not get sufficient light and research shows that light can significantly improve someone’s mood and energy levels.
 
-During this pandemic, people have been struggling and we are using this opportunity to help people. We decided to create a multi-functional lamp whose colour and brightness can change either automatically or manually. The light can also react to music, and we hope that this multi-functional lamp works as “mood lighting” and puts people in a better mood.
+* During this pandemic, people have been struggling and we are using this opportunity to help people. We decided to create a multi-functional lamp whose colour and brightness can change either automatically or manually. The light can also react to music, and we hope that this multi-functional lamp works as “mood lighting” and puts people in a better mood.
 
 We called the project Moodify™. The Moodify™ is a must-have if you want to control the atmosphere according to the mood you’re in or the mood you’d want to be in. Moodify™ is designed with the atmosphere of your home in mind, thereby improving your mood.
 
