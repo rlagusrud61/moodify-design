@@ -21,6 +21,7 @@ The Moodify™ is a multi-functional lamp that has a number of features. Firstly
 All of these features are easily accessible via a custom-built web interface that accompanies the Moodify™. The interface can be accessed by the internet browser on your smart device. The Moodify™ is connected to your smart device over Bluetooth. Turning the lamp on and off can also be done using the switch on the Moodify™.
 
 **Timeline**
+
 During sprint 1, we decided on the idea and scope of our project. We also reflected on the different roles we were going to take upon ourselves as team members in this project.
 
 During sprint 2, we created a mock-up to base our web interface on. We changed the scope of our project a little bit - deprioritising the wake-up light feature - to prevent overlap with other projects. Furthermore, we decided on relevant libraries and their implementations and we made ourselves familiar with said libraries.
@@ -47,6 +48,7 @@ There is also a physical switch, with which we can turn the Moodify™ on and of
 ## 5. Design (How to map application onto Hardware and Software)
 - [UML diagram](https://imgur.com/TWZCyuH)
 As shown in the use case diagram, the user can either use the switch or the web interface to interact with the Moodify™. When the switch is used, the user can manually turn the light on and off. When the web interface is used, the user can access quite a few functionalities depending on the mode chosen. The user can switch between the three modes: manual light mode, automatic or mood lighting mode and music mode. In manual light mode, the user can change the colour of the light as well as the brightness of the light. In automatic or mood lighting mode, the user can only change the colour of the light as its brightness depends on the brightness of the room. In music mode, the user allows the microphone to take in sound input and the colour of the light and intensity is automatically adjusted according to the rhythm of the sound. 
+
 - [Mockup for the web interface](https://imgur.com/7pDujVd)
 This was the original mockup for the project but when the web interface was created, a few changes were made. Since alarm functionality overlapped with a project from a different group, and as this functionality is not of our utmost importance, we decided to not implement it for the time being. So, in the sidebar, we have radio buttons for the 3 modes. Also, there was a change to an RGB colour picker instead of selecting individual colours to allow more colours to be selected. Also, there is also a connect button (via Bluetooth to the Pi) next to the disconnect button. The switch button to turn the lights on or off was just moved to the side bar. Despite some changes from the initial design, this web interface still allows the user to achieve all the functionalities of the Moodify™.
 
@@ -185,7 +187,7 @@ Glossary:
 8. JS - Javascript
 9. CSS - Cascading Style Sheet
 10. FFT - Fast Fourier Transform
-11. haracteristics - A field in a bluetooth service which the user can read and write to.
+11. Characteristics - A field in a bluetooth service which the user can read and write to.
 12. Service - A Container of Characteristics in a BLE-GATT-Server
 13. Hanning Windowing - A method of smoothing data so that the more prominent frequencies are highlighted while the noise is filtered.
 14. Noise - Unwanted data picked from apparently random occurrences in the physical world.
