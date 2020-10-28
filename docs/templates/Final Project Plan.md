@@ -9,9 +9,9 @@
 **Project Title: Moodify™**
 
 ## 1. Introduction and Background
-- For our project, we were inspired by how people’s mental health has been affected during the COVID-19 pandemic. Since everyone is locked in their rooms because of the pandemic, people might not get sufficient light and research shows that light can significantly improve someone’s mood and energy levels.
+For our project, we were inspired by how people’s mental health has been affected during the COVID-19 pandemic. Since everyone is locked in their rooms because of the pandemic, people might not get sufficient light and research shows that light can significantly improve someone’s mood and energy levels.
 
-* During this pandemic, people have been struggling and we are using this opportunity to help people. We decided to create a multi-functional lamp whose colour and brightness can change either automatically or manually. The light can also react to music, and we hope that this multi-functional lamp works as “mood lighting” and puts people in a better mood.
+During this pandemic, people have been struggling and we are using this opportunity to help people. We decided to create a multi-functional lamp whose colour and brightness can change either automatically or manually. The light can also react to music, and we hope that this multi-functional lamp works as “mood lighting” and puts people in a better mood.
 
 We called the project Moodify™. The Moodify™ is a must-have if you want to control the atmosphere according to the mood you’re in or the mood you’d want to be in. Moodify™ is designed with the atmosphere of your home in mind, thereby improving your mood.
 
@@ -54,13 +54,13 @@ This was the original mockup for the project but when the web interface was crea
 Aspects of the Application:
 1. Front-end
     * HTML
-        i. We implemented the front-end with a combination of regular HTML + CSS, and also used some of the W3Schools library to use some of the features (such as buttons). 
+        - We implemented the front-end with a combination of regular HTML + CSS, and also used some of the W3Schools library to use some of the features (such as buttons). 
     * JS
-        i. There are two javascript files in the web interface: index.js and ble.js. index.js is responsible for handling some of the basic front-end interactions such as click events of radio buttons. Also, it is responsible for generating data objects (e.g. RGB hexStrings) for the Pi. The ble.js mainly handles the connection and the disconnection of the Pi to the web interface, and handles the data received by the web interface from the Pi. 
+        - There are two javascript files in the web interface: index.js and ble.js. index.js is responsible for handling some of the basic front-end interactions such as click events of radio buttons. Also, it is responsible for generating data objects (e.g. RGB hexStrings) for the Pi. The ble.js mainly handles the connection and the disconnection of the Pi to the web interface, and handles the data received by the web interface from the Pi. 
 2. Bluetooth Link
     * Web-Bluetooth-API
-        i. This is an experimental technology hence requires the experimental flag in chrome and other web-browsers to be set to enable.
-        ii. The documentation of this is used and can be found on their github page. For our purposes, we need only the data flow.
+        - This is an experimental technology hence requires the experimental flag in chrome and other web-browsers to be set to enable.
+        - The documentation of this is used and can be found on their github page. For our purposes, we need only the data flow.
             1. First we have the device, the Raspberry Pi. The device is hosting the BLE-GATT-Server with many services.
             2. We get the service we need, in our case it is just the one, the MoodifyService.
             3. That Service has many characteristics:
@@ -79,20 +79,20 @@ Aspects of the Application:
         vi. Characteristics are individual elements that a user writes to from the client. These updates are carried forward to the Moodify™ Driver
 3. GPIO-Programming
     * MoodifyDriver
-        i. Holds the current mode:
+        - Holds the current mode:
             1. Manual Mode, MoodLighting, Music Mode
             2. Receives the updates from moodify-gatt-server to switch modes and turn off all modes when needed.
             3. Calls the appropriate methods in Strip Control which reflect the updates sent by the client.
-        ii. Threading
+        - Threading
             1. Updates and controlling the strip happens in two different threads to ensure tasks like Music Mode work without too much delay.
             2. Controls the main loop of checking, updating and activating said modes. The updates come from the moodify-gatt-server when the user makes changes on a proper client by sending mode, colour and brightness updates.
             3. It also creates an Event Signal object to the StripControl. This strip control uses the event object in the main musicLoop.
     * StripControl
-        i. Uses the library ws281_x new Pixel Library
+        - Uses the library ws281_x new Pixel Library
             1. Handles sending the proper bit stream to the NeoPixel LEDs we have used in our project for the colour, brightness being displayed on the pixels.
             2. We fill the RGB_LED strip with the color we specify using the library function self.fill()
             3. Then when we want to show the colour, we use self.show() command of the library to display the colour to the physical LED.
-        ii. Depending on the call from the Moodify™ Driver it turns ON 
+        - Depending on the call from the Moodify™ Driver it turns ON 
             1. Manual LED mode
                 a. Showing the current colour using methods summarised above
             2. Turns on the Lights in Mood Lighting Mode
@@ -107,12 +107,12 @@ Aspects of the Application:
                 c. Turn on the Music Mode when we get a signal from Moody Driver, which begins a loop of refreshing the colour of the rgb_led_strip depending on the frequency and the amplitude of the sound received by the sound device.
                 d. This loop stops when the Moodify™ Driver clears the Event object (which happens when the user turns off the music mode). This thread then waits until the event is set again, hence not wasting any CPU time.
     * SoundAnalyser
-        i. PyAudio
+        - PyAudio
             1. Handles the aspect of reading the sound from the microphone into a buffer and then we use the data chunks returned from the buffer to analyse the data: in terms of amplitude, amplitude of peak frequency and peak frequency.
-        ii. SciPy
+        - SciPy
             1. Creates the butter band filter for frequency filter of really high and low frequency that are not part of the songs.
             2. When PyAudio returns the data chunks, it is first passed through the butter band filter to filter the frequencies we do not need.
-        iii. Numpy
+        - Numpy
             1. Is a base library used by both PyAudio and SciPy
             2. Implements the Hanning windowing function to smooth the frequencies before Fast Fourier Transform is applied
             3. Implements the Fast Fourier Transform function to return the frequencies of the data signal.
