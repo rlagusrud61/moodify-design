@@ -6,7 +6,7 @@
 | *Team Members:*  | Victor Kampen, Hyeon Kyeong Kim, Priya Naguine, Marieke Romeijn,Puru Vaish, Joep Vorage      |
 | *Scrum  Mentors:*| Chakshu Gupta, Rick Fontein  |
 
-**Project Title: Moodify™**
+**Project Title: Moodify**
 
 ## 1. Introduction and Background
 For our project, we were inspired by how people’s mental health has been affected during the COVID-19 pandemic. Since everyone is locked in their rooms because of the pandemic, people might not get sufficient light and research shows that light can significantly improve someone’s mood and energy levels.
@@ -125,6 +125,7 @@ During sprint 5, we have the final opportunity to make changes to our project. W
 
 ## 7. Testing
 **Manual testing**
+
 The testing of the Moodify was very simple. Most of the functionality we wanted was controlled by the web interface, so once we were done, it was just a matter of trying all the different options available to us. We tested the Moodify more thoroughly and we tried breaking the system by switching between the various modes and toggling between other options in quick succession, as well as trying different combinations of modes and options. We have tried activating both the manual mode and the automatic mode without any success for example.
 
 Another way of testing was done with a client side mockup called LightBlue combined with the BLE Scanner application available on Android and iOS. We used the web-interface that was in development for this testing.
@@ -155,6 +156,7 @@ Acceptance Criteria:
     - No message is given to the user. (FAIL)
 
 **Automated Testing**
+
 There are only a few things that can be automated tested in our project due to the acute reliance on the existence of a bluetooth driver and hardware and also the existence of other physical circuit components like the RGB and the LDR. The code for this part can not be tested without the hardware. We made an automated test for the decode string functions and its assertions, by defining a pipeline which runs the decodeTest.py in our directory. This tests if the incoming string code for mode select, colour option and the brightness level.
 
 Acceptance Criteria:
