@@ -3,7 +3,7 @@
 |                  | **Names/Ids**  |
 |-----------------:|:---------------|
 | *Team ID:*       |      Team 08          |
-| *Team Members:*  | Victor Kampen, Hyeon Kyeong Kim, Priya Naguine, Marieke Romeijn,Puru Vaish, Joep Vorage      |
+| *Team Members:*  | Victor Kampen, Hyeon Kyeong Kim, Priya Naguine, Marieke Romeijn, Puru Vaish, Joep Vorage      |
 | *Scrum  Mentors:*| Chakshu Gupta, Rick Fontein  |
 
 **Project Title: Moodify**
