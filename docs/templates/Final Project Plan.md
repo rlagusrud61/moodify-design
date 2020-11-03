@@ -125,7 +125,6 @@ During sprint 5, we have the final opportunity to make changes to our project. W
 
 ## 7. Testing
 **Manual testing**
-
 The testing of the Moodify was very simple. Most of the functionality we wanted was controlled by the web interface, so once we were done, it was just a matter of trying all the different options available to us. We tested the Moodify more thoroughly and we tried breaking the system by switching between the various modes and toggling between other options in quick succession, as well as trying different combinations of modes and options. We have tried activating both the manual mode and the automatic mode without any success for example.
 
 Another way of testing was done with a client side mockup called LightBlue combined with the BLE Scanner application available on Android and iOS. We used the web-interface that was in development for this testing.
@@ -138,37 +137,36 @@ We carried out the testing in 4 distinct phases, namely:
 
 Acceptance Criteria:
 1. The user can connect to the Pi using the web-interface
-    a. By pressing the button connect, the user can perform other operations like changing the colour and the Pi responds to it (PASS)
-    b. There is no change after connecting to the Pi (FAIL)
+    - By pressing the button connect, the user can perform other operations like changing the colour and the Pi responds to it (PASS)
+    - There is no change after connecting to the Pi (FAIL)
 2. When the user inputs a new colour the colour of Pi changes only when in Manual Light mode and Mood Lighting Mode
-    a. The colour does not change when the Music Mode is selected (PASS)
-    b. The colour changes to selected colour when Music Mode is selected (FAIL)
+    - The colour does not change when the Music Mode is selected (PASS)
+    - The colour changes to selected colour when Music Mode is selected (FAIL)
 3. When it is dark, the lights automatically turn on to the previously selected colour in Mood Lighting mode
-    a. The lights do not turn on when it is dark (FAIL)
-    b. The lights do not turn on to the previously selected colour (FAIL)
-    c. The light turn on only but not to the selected colour (FAIL)
-    d. The lights turn on and to the selected colour (PASS)
+    - The lights do not turn on when it is dark (FAIL)
+    - The lights do not turn on to the previously selected colour (FAIL)
+    - The light turn on only but not to the selected colour (FAIL)
+    - The lights turn on and to the selected colour (PASS)
 4. When the music mode is turned on, playing music sufficiently close to the Pi causes different colours to show.
-    a. No colours or single colour shown while in Music Mode (FAIL)
-    b. Different colours shown when Music Played while in Music Mode (PASS)
+    - No colours or single colour shown while in Music Mode (FAIL)
+    - Different colours shown when Music Played while in Music Mode (PASS)
 5. When the Pi is disconnected, the user is alerted about the disconnection
-    a. An alert box is shown in the Web-Interface informing them about the disconnection (PASS)
-    b. No message is given to the user. (FAIL)
+    - An alert box is shown in the Web-Interface informing them about the disconnection (PASS)
+    - No message is given to the user. (FAIL)
 
 **Automated Testing**
-
 There are only a few things that can be automated tested in our project due to the acute reliance on the existence of a bluetooth driver and hardware and also the existence of other physical circuit components like the RGB and the LDR. The code for this part can not be tested without the hardware. We made an automated test for the decode string functions and its assertions, by defining a pipeline which runs the decodeTest.py in our directory. This tests if the incoming string code for mode select, colour option and the brightness level.
 
 Acceptance Criteria:
 1. For the decode mode selected:
-    a. The string must be of length 3 and The string must only have one “1” and The string must only have numbers and The string must only have numbers in range 0 and 1 and only be integers (PASS).
-    b. Else (FAIL).
+    - The string must be of length 3 and The string must only have one “1” and The string must only have numbers and The string must only have numbers in range 0 and 1 and only be integers (PASS).
+    - Else (FAIL).
 2. For the decode colour:
-    a. The string must be of the format “int,int,int” and after splitting on the separator (“,”), the string must only have numbers and the string must only have numbers in range 0 and 255 and numbers should only be integers. (PASS)
-    b. Else (FAIL).
+    - The string must be of the format “int,int,int” and after splitting on the separator (“,”), the string must only have numbers and the string must only have numbers in range 0 and 255 and numbers should only be integers. (PASS)
+    - Else (FAIL).
 3. For the decode brightness:
-    a. The string should only have a float number in range of 0 to 1. (PASS)
-    b. Else (FAIL).
+    - The string should only have a float number in range of 0 to 1. (PASS)
+    - Else (FAIL).
 
 ## 8. Planning and definition of tasks for the individual members
 **Sprint 1**
