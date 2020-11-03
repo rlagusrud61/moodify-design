@@ -50,10 +50,10 @@ The following list shows all the specifications of the software:
     * BLE-GATT-SERVER
         i. Uses the bluetooth adapter of the Raspberry Pi.
         ii. A python wrapper for controlling this adapter is used, namely pyble, which was not written by us, but is part of the official bluez examples which was modified by a user on Github for ease of access in projects.
-        iii. This library is used to define our own Moodify™ Advertisement, Moodify™ Services and Moodify™ Characteristics for those Services.
+        iii. This library is used to define our own Moodify Advertisement, Moodify Services and Moodify Characteristics for those Services.
         iv. Advertisement is what allows us to use a Human-Readable name when we want to connect to the Pi from our website.
         v. Services is a container for many characteristics that we would like to control in our Bluetooth Server.
-        vi. Characteristics are individual elements that a user writes to from the client. These updates are carried forward to the Moodify™ Driver
+        vi. Characteristics are individual elements that a user writes to from the client. These updates are carried forward to the Moodify Driver
 3. GPIO-Programming
     * MoodifyDriver
         - Holds the current mode:
@@ -69,7 +69,7 @@ The following list shows all the specifications of the software:
             1. Handles sending the proper bit stream to the NeoPixel LEDs we have used in our project for the colour, brightness being displayed on the pixels.
             2. We fill the RGB_LED strip with the color we specify using the library function self.fill()
             3. Then when we want to show the colour, we use self.show() command of the library to display the colour to the physical LED.
-        - Depending on the call from the Moodify™ Driver it turns ON 
+        - Depending on the call from the Moodify Driver it turns ON 
             1. Manual LED mode
                 a. Showing the current colour using methods summarised above
             2. Turns on the Lights in Mood Lighting Mode
@@ -79,10 +79,10 @@ The following list shows all the specifications of the software:
                 d. Else, there is sufficient light and the lights stay off.
                 e. The light color is selected by the user on the Web-Interface.
             3. Toggles the Music Loop
-                a. It receives an event object from Moodify™ Driver. This is used explicitly for the music mode.
-                b. When the Moodify™ Driver gets the update for turning on the music mode, it sets the event object. This tells the music loop which was currently blocked, waiting for this event. This is to prevent the audio device reading even when it is not required by the user. 
+                a. It receives an event object from Moodify Driver. This is used explicitly for the music mode.
+                b. When the Moodify Driver gets the update for turning on the music mode, it sets the event object. This tells the music loop which was currently blocked, waiting for this event. This is to prevent the audio device reading even when it is not required by the user. 
                 c. Turn on the Music Mode when we get a signal from Moody Driver, which begins a loop of refreshing the colour of the rgb_led_strip depending on the frequency and the amplitude of the sound received by the sound device.
-                d. This loop stops when the Moodify™ Driver clears the Event object (which happens when the user turns off the music mode). This thread then waits until the event is set again, hence not wasting any CPU time.
+                d. This loop stops when the Moodify Driver clears the Event object (which happens when the user turns off the music mode). This thread then waits until the event is set again, hence not wasting any CPU time.
     * SoundAnalyser
         - PyAudio
             1. Handles the aspect of reading the sound from the microphone into a buffer and then we use the data chunks returned from the buffer to analyse the data: in terms of amplitude, amplitude of peak frequency and peak frequency.
